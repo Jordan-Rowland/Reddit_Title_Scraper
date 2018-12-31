@@ -4,9 +4,9 @@ from requests import get
 
 headers = {'User-Agent': 'PyBot3000',}
 
-reddit = praw.Reddit(client_id='jdjGAlGTpENPvw',
-                     client_secret='ZPuQw6pfheD5Wz953hN_8THOLzE',
-                     user_agent='headers')
+#####
+    Removed personal data
+#####
 
 subreddit = reddit.subreddit('python')
 reddit.read_only = True
